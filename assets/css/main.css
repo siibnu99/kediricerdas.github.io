@@ -1,0 +1,42 @@
+/* Main */
+ul.navbar-nav li {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 10px;
+}
+
+/* Main Color */
+.bg-indigo {
+    background-color: #1D1F74 !important;
+}
+
+.text-indigo {
+    color: #1D1F74 !important;
+}
+
+
+
+/* button */
+.btn-rounded {
+    border-radius: 30px 30px 30px 30px;
+}
+
+.btn-outline-indigo {
+    color: white !important;
+    background-color: #1D1F74 !important;
+    border: 1px solid white;
+}
+
+/* Image */
+.img-logo {
+    height: 50px;
+}
+
+/* hero-page */
+.hero-page {
+    background-image: url('../img/Landing/hero-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 125px;
+    font-family: 'Poppins', sans-serif;
+}
