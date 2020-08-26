@@ -2,6 +2,10 @@ body {
     color: #464646;
 }
 
+button:focus {
+    outline: 0
+}
+
 /* Main */
 ul.navbar-nav li {
     font-family: 'Montserrat', sans-serif;
@@ -174,4 +178,106 @@ ul.navbar-nav li {
     text-align: center;
     padding: 5px;
     background-color: white;
+}
+
+
+@media (max-width: 992px) {}
+
+.class-item {
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    transition: 1s;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    width: 320px;
+    height: 150px;
+}
+
+.class-item:hover {
+    box-shadow: 10px 10px 10px #1D1F74;
+    transition: 1s;
+}
+
+.class-icon img {
+    width: 90px !important;
+}
+
+.class-item .img-class-user {
+    width: 25px !important;
+}
+
+.class-item .class-detail {
+    padding-left: 20px;
+}
+
+.class-item .class-detail .head {
+    height: 40px;
+}
+
+.class-item .class-detail .name-create {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    width: 86px;
+}
+
+.class-item .class-detail .title {
+    height: 50px;
+}
+
+.class-item .class-detail .title p {
+    margin-bottom: 0px !important;
+}
+
+.class-item .class-detail .star {
+    font-size: 14px;
+    color: yellow;
+}
+
+.class-item .class-detail .member {
+    float: right;
+    font-size: 14px;
+    color: #1D1F74;
+    font-weight: bold;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0px 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.class-item .class-detail .comment {
+    font-size: 14px;
+    color: yellow;
+    font-weight: bold;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0px 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.class-carousel .owl-prev,
+.class-carousel .owl-next {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #1D1F74 !important;
+    transition: 1s;
+}
+
+.class-carousel .owl-prev:hover,
+.class-carousel .owl-next:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #1D1F74 !important;
+    color: #fff !important;
+    transition: 1s;
+}
+
+.class-carousel .owl-prev {
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+.class-carousel .owl-next {
+    position: absolute;
+    top: 50px;
+    right: -50px;
 }
