@@ -165,7 +165,7 @@ ul.navbar-nav li {
     border-radius: 100px 0px 100px 0px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
     transition: 1s;
-    padding: 20px;
+    padding: 20px !important;
     font-family: 'Poppins', sans-serif;
     width: 260px;
     height: 99px;
@@ -180,12 +180,9 @@ ul.navbar-nav li {
 .user-icon {
     border-radius: 1000px;
     text-align: center;
-    padding: 5px;
+    padding: 0;
     background-color: white;
 }
-
-
-@media (max-width: 992px) {}
 
 .class-item {
     border-radius: 0px 40px 0px 40px;
@@ -286,30 +283,12 @@ ul.navbar-nav li {
     right: -50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------------
-    testimonial Page
----------------------------------------------------------------------------------------*/
-
 #testimonial-page {
     margin: 115px 0px;
     background-image: url(../img/Landing/testi.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
-#testimonial-page .title-page {}
-
 
 .testi-wrap {
     position: relative;
@@ -357,7 +336,7 @@ ul.navbar-nav li {
 }
 
 .member-single.position-2 {
-    left: 180px;
+    left: 9000px;
     top: -50px;
 }
 
@@ -479,7 +458,6 @@ ul.navbar-nav li {
     padding: 40px 0px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px 10px 10px 10px;
-
 }
 
 footer {
