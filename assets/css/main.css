@@ -1,33 +1,30 @@
+/* --------------------------------------------------------------
+    Body
+    Button
+    Navbar
+    Image
+    hero
+-----------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------
+    Body 
+-----------------------------------------------------------------*/
 body {
     color: #464646;
 }
 
+section {
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------
+    button 
+-----------------------------------------------------------------*/
 button:focus {
     outline: 0
 }
 
-/* Main */
-ul.navbar-nav li {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px 10px;
-}
-
-/* Main Color */
-.bg-indigo {
-    background-color: #1D1F74 !important;
-}
-
-.text-indigo {
-    color: #1D1F74 !important;
-}
-
-.border-indigo {
-    border-color: #1D1F74;
-    border-right: 3px solid #1D1F74;
-}
-
-
-/* button */
 .btn-rounded {
     border-radius: 30px 30px 30px 30px;
 }
@@ -63,29 +60,48 @@ ul.navbar-nav li {
     text-decoration: none;
 }
 
-/* Image */
+.bg-indigo {
+    background-color: #1D1F74 !important;
+}
+
+.text-indigo {
+    color: #1D1F74 !important;
+}
+
+.border-indigo {
+    border-color: #1D1F74;
+    border-right: 3px solid #1D1F74;
+}
+
+/* --------------------------------------------------------------
+    Image 
+-----------------------------------------------------------------*/
 .img-logo {
     height: 50px;
 }
 
-/* hero-page */
-#hero-page {
-    background-image: url('../img/Landing/hero-background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    padding-top: 125px;
-    font-family: 'Poppins', sans-serif;
-}
+/* --------------------------------------------------------------
+    Title 
+-----------------------------------------------------------------*/
 
 .title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
 
-/* title template */
 .title-page {
     font-family: 'Lato', sans-serif;
+}
+
+.title-page::after {
+    display: block;
+    height: 5px;
+    width: 60%;
+    margin: 10px auto;
+    background: linear-gradient(to left, #2f31a7, #1C66FF, #2f31a7);
+    content: '';
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0px 0px 5px #1C66FF;
 }
 
 .title-page h1,
@@ -98,14 +114,30 @@ ul.navbar-nav li {
     color: #5F61BE !important;
 }
 
-/* features */
-
-@media (max-width: 992px) {
-    .features-item {
-        margin-bottom: 45px;
-    }
+/* --------------------------------------------------------------
+Navbar 
+-----------------------------------------------------------------*/
+ul.navbar-nav li {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 10px;
 }
 
+
+/* --------------------------------------------------------------
+    Hero 
+-----------------------------------------------------------------*/
+#hero-page {
+    background-image: url('../img/Landing/hero-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 125px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------------------------------------------------
+    Fetures 
+-----------------------------------------------------------------*/
 .features-item {
     border-radius: 5px;
     padding: 10px 30px;
@@ -147,7 +179,9 @@ ul.navbar-nav li {
     background-color: white;
 }
 
-/* Member Page */
+/* --------------------------------------------------------------
+    Member Page 
+-----------------------------------------------------------------*/
 #member-page {
     background-image: url('../img/Landing/bg-member.png');
     background-repeat: no-repeat;
@@ -155,11 +189,6 @@ ul.navbar-nav li {
     background-size: auto auto;
 }
 
-@media (max-width: 992px) {
-    .user-item {
-        margin-bottom: 45px;
-    }
-}
 
 .user-item {
     border-radius: 100px 0px 100px 0px;
@@ -184,6 +213,9 @@ ul.navbar-nav li {
     background-color: white;
 }
 
+/* --------------------------------------------------------------
+    Class 
+-----------------------------------------------------------------*/
 .class-item {
     border-radius: 0px 40px 0px 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
@@ -283,8 +315,10 @@ ul.navbar-nav li {
     right: -50px;
 }
 
+/* --------------------------------------------------------------
+    testimonial 
+-----------------------------------------------------------------*/
 #testimonial-page {
-    margin: 115px 0px;
     background-image: url(../img/Landing/testi.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -454,13 +488,19 @@ ul.navbar-nav li {
     margin-bottom: 4px;
 }
 
-/* Contact page */
+/* --------------------------------------------------------------
+    Contact 
+-----------------------------------------------------------------*/
 .contact-item {
     padding: 40px 0px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px 10px 10px 10px;
+    margin: 10px 0px;
 }
 
+/* --------------------------------------------------------------
+    Footer 
+-----------------------------------------------------------------*/
 footer {
     padding: 115px 0 50px;
     background-image: url(../img/Landing/bg-fot-1.png),
